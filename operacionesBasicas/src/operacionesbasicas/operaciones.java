@@ -18,5 +18,11 @@ public class operaciones {
         System.out.println("Suma de dos numeros----> " + resultado);
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
+    
+     void resta(float numero1, float numero2){
+        resultado = numero1 - numero2;
+        System.out.println("Suma de dos numeros----> " + resultado);
+        JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
+    }
             
 }
