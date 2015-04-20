@@ -35,5 +35,10 @@ public class operaciones {
         System.out.println("Division de dos numeros----> " + resultado);
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
+    void potencia(float numero1, float numero2){
+        resultado = numero1 / numero2;
+        System.out.println("Division de dos numeros----> " + resultado);
+        JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
+    }
             
 }
