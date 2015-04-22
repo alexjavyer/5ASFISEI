@@ -35,5 +35,11 @@ public class operaciones {
         System.out.println("Suma de dos numeros----> " + resultado);
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
+     void division(float numero1, float numero2){
+        resultado = numero1 / numero2;
+        System.out.println("Division de dos numeros----> " + resultado);
+        JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
+    }
+     
             
 }
