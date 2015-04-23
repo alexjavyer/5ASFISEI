@@ -48,8 +48,8 @@ public class OperacionesBasicas {
                     op.division(a, b);
                 }else{
                     if(opcion==3){
-                    a = Float.valueOf(JOptionPane.showInputDialog(null,"Numero 1"));
-                    b = Float.valueOf(JOptionPane.showInputDialog(null,"Numero 2"));
+                    a = Float.valueOf(JOptionPane.showInputDialog(null,"Base"));
+                    b = Float.valueOf(JOptionPane.showInputDialog(null,"Exponente"));
                     op.potencia(a, b);
                 }else{
                      if(opcion==4){
