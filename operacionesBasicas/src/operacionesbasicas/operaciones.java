@@ -35,5 +35,14 @@ public class operaciones {
         System.out.println("El Producto de: " +multiplicando+"*"+multiplicador+ "="+ producto);
         JOptionPane.showMessageDialog(null, "El Producto de: " +multiplicando+"*"+multiplicador+ "="+ producto);
     }
+    
+    void parInpar(float numero1){
+         if(numero1%2==0){
+             JOptionPane.showMessageDialog(null, "El numero "+numero1+" es par");
+         }else{
+             JOptionPane.showMessageDialog(null, "El numero "+numero1+" es impar");
+         }
+     }
+
      
 }
