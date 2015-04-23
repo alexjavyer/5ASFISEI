@@ -29,5 +29,11 @@ public class operaciones {
         System.out.println("Potencia : " +base+ "^"+exponente+" ="+ resultado);
         JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ resultado);
      }
+    void multiplicacion(float multiplicando, float multiplicador){
+        float producto;
+        producto=multiplicando*multiplicador;
+        System.out.println("El Producto de: " +multiplicando+"*"+multiplicador+ "="+ producto);
+        JOptionPane.showMessageDialog(null, "El Producto de: " +multiplicando+"*"+multiplicador+ "="+ producto);
+    }
      
 }
