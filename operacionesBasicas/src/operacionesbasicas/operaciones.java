@@ -28,6 +28,12 @@ public class operaciones {
         System.out.println("Division de dos numeros----> " + resultado);
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
+     void potencia(float base, float exponente) {
+         float r;
+        r= base+exponente;
+        System.out.println("Potencia : " +base+ "^"+exponente+" ="+ resultado);
+        JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ resultado);
+     }
      
             
 }
