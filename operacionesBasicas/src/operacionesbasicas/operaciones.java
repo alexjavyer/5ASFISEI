@@ -25,11 +25,11 @@ public class operaciones {
     }
     void potencia(float base, float exponente) {
         float r=0;
-        for(int i=0;i<=exponente;i++){
+        for(int i=1;i<=exponente;i++){
         r= r+base;
         }
-        System.out.println("Potencia : " +base+ "^"+exponente+" ="+ resultado);
-        JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ resultado);
+        System.out.println("Potencia : " +base+ "^"+exponente+" ="+ r);
+        JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ r);
      }
     void multiplicacion(float multiplicando, float multiplicador){
         float producto;
