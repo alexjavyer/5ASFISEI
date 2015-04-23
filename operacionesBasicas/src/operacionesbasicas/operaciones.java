@@ -29,7 +29,7 @@ public class operaciones {
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
     void potencia(float base, float exponente) {
-         float r;
+        float r;
         r= base+exponente;
         System.out.println("Potencia : " +base+ "^"+exponente+" ="+ resultado);
         JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ resultado);
