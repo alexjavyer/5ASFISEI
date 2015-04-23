@@ -24,5 +24,6 @@ public class OperacionesBasicas {
         b = Float.valueOf(JOptionPane.showInputDialog(null,"Numero 2"));
         
         op.suma(a,b);
+        op.division(a, b);
     }
 }
