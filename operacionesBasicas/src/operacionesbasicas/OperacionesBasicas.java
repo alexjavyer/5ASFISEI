@@ -25,5 +25,6 @@ public class OperacionesBasicas {
         
         op.suma(a,b);
         op.division(a, b);
+        op.potencia(a, b);
     }
 }
