@@ -13,6 +13,6 @@ package operacionesbasicas;
 public class Sanchez {
      
     public static void main(String[] args) {
-    System.out.println("Anita Sánchez");
+    System.out.println("Anita Sánchez::::");
     }
 }
