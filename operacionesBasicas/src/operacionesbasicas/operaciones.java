@@ -20,7 +20,7 @@ public class operaciones {
     }
      void resta(float numero1, float numero2){
         resultado = numero1 - numero2;
-        System.out.println("Resta de dos numeros----> " + resultado);
+        //System.out.println("Resta de dos numeros----> " + resultado);
         JOptionPane.showMessageDialog(null, "Resultado--->"+resultado);
     }
      void division(float numero1, float numero2){
