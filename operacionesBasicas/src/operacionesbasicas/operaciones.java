@@ -28,8 +28,8 @@ public class operaciones {
         for(int i=1;i<=exponente;i++){
         r= r+base;
         }
-        System.out.println("Potencia : " +base+ "^"+exponente+" ="+ r);
-        JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" ="+ r);
+        System.out.println("Potencia : " +base+ "^"+exponente+" = "+ r);
+        JOptionPane.showMessageDialog(null, "Potencia : " +base+ "^"+exponente+" = "+ r);
      }
     void multiplicacion(float multiplicando, float multiplicador){
         float producto;
