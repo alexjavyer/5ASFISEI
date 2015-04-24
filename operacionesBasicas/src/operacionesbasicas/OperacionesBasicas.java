@@ -29,7 +29,7 @@ public class OperacionesBasicas {
         //op.potencia(a,b);
         //op.multiplicacion(a, b);
         do{
-          opcion=(Integer)JOptionPane.showOptionDialog(null, "mensaje", "titulo", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null
+          opcion=(Integer)JOptionPane.showOptionDialog(null, "Escoga un numero", "Operaciones Basicas", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null
                 , new Object[]{"Suma","Multiplicación","División","Potencia", "Par o impar","Salir"}, args);
         //float a,b;
         if(opcion==0){
